@@ -28,3 +28,25 @@ The products, sales, and user accounts are stored in an external database. The p
 - First usage of a CSS framework like Bootstrap
 - PHP Sessions
 - More ways to manipulate the DOM with jQuery
+
+## Examples
+
+Homepage (User)
+
+![image](https://user-images.githubusercontent.com/107071736/184509813-b17911f0-a1e1-47f4-904c-c4bdb0c59158.png)
+
+Homepage (Admin)
+
+![image](https://user-images.githubusercontent.com/107071736/184509828-4a01a83c-11ec-42e3-9ec7-bae3326b7a33.png)
+
+Sign Up Page 
+
+![image](https://user-images.githubusercontent.com/107071736/184509850-1483713e-6f9b-4b55-91e9-bdbfd3eae400.png)
+
+Product Example
+
+![image](https://user-images.githubusercontent.com/107071736/184509876-d86cb9d1-058b-4834-8a99-3f57298d814f.png)
+
+Cart
+
+![image](https://user-images.githubusercontent.com/107071736/184509892-7ea3a7d7-66e7-4244-bb26-d47b87afdbe0.png)
