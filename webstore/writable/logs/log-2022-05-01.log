@@ -1,0 +1,184 @@
+CRITICAL - 2022-05-01 14:05:22 --> Undefined array key "input"
+#0 C:\xampp\htdocs\webstore\app\Controllers\AddProducts.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 35)
+#1 C:\xampp\htdocs\webstore\system\CodeIgniter.php(832): App\Controllers\AddProducts->save()
+#2 C:\xampp\htdocs\webstore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AddProducts))
+#3 C:\xampp\htdocs\webstore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\webstore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\webstore\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-01 14:51:56 --> Undefined array key "input"
+#0 C:\xampp\htdocs\webstore\app\Controllers\AddProducts.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 35)
+#1 C:\xampp\htdocs\webstore\system\CodeIgniter.php(832): App\Controllers\AddProducts->save()
+#2 C:\xampp\htdocs\webstore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AddProducts))
+#3 C:\xampp\htdocs\webstore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\webstore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\webstore\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-05-01 15:22:11 --> Duplicate entry '0' for key 'PRIMARY'
+CRITICAL - 2022-05-01 15:22:11 --> Duplicate entry '0' for key 'PRIMARY'
+#0 C:\xampp\htdocs\webstore\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\webstore\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\webstore\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\webstore\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\webstore\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\webstore\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\webstore\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\webstore\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\webstore\app\Controllers\AddProducts.php(225): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\webstore\system\CodeIgniter.php(832): App\Controllers\AddProducts->save()
+#10 C:\xampp\htdocs\webstore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AddProducts))
+#11 C:\xampp\htdocs\webstore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\webstore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\webstore\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2022-05-01 15:23:39 --> Duplicate entry '0' for key 'PRIMARY'
+CRITICAL - 2022-05-01 15:23:39 --> Duplicate entry '0' for key 'PRIMARY'
+#0 C:\xampp\htdocs\webstore\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\webstore\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\webstore\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\webstore\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\webstore\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\webstore\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\webstore\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\webstore\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\webstore\app\Controllers\AddProducts.php(225): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\webstore\system\CodeIgniter.php(832): App\Controllers\AddProducts->save()
+#10 C:\xampp\htdocs\webstore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AddProducts))
+#11 C:\xampp\htdocs\webstore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\webstore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\webstore\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2022-05-01 15:24:14 --> Duplicate entry '0' for key 'PRIMARY'
+CRITICAL - 2022-05-01 15:24:14 --> Duplicate entry '0' for key 'PRIMARY'
+#0 C:\xampp\htdocs\webstore\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\webstore\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\webstore\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\webstore\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\webstore\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\webstore\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\webstore\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\webstore\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\webstore\app\Controllers\AddProducts.php(225): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\webstore\system\CodeIgniter.php(832): App\Controllers\AddProducts->save()
+#10 C:\xampp\htdocs\webstore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AddProducts))
+#11 C:\xampp\htdocs\webstore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\webstore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\webstore\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2022-05-01 20:10:47 --> Unknown column 'SELECT id FROM `products` WHERE products.name =' in 'field list'
+CRITICAL - 2022-05-01 20:10:47 --> Unknown column 'SELECT id FROM `products` WHERE products.name =' in 'field list'
+#0 C:\xampp\htdocs\webstore\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `SELECT ...', 0)
+#1 C:\xampp\htdocs\webstore\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `SELECT ...')
+#2 C:\xampp\htdocs\webstore\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `SELECT ...')
+#3 C:\xampp\htdocs\webstore\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `SELECT ...', Array, false)
+#4 C:\xampp\htdocs\webstore\app\Controllers\EditProducts.php(43): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\webstore\system\CodeIgniter.php(832): App\Controllers\EditProducts->save()
+#6 C:\xampp\htdocs\webstore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EditProducts))
+#7 C:\xampp\htdocs\webstore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\webstore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\webstore\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-05-01 20:14:52 --> Unknown column 'SELECT `id` FROM `products` WHERE `products.name` =' in 'field list'
+CRITICAL - 2022-05-01 20:14:52 --> Unknown column 'SELECT `id` FROM `products` WHERE `products.name` =' in 'field list'
+#0 C:\xampp\htdocs\webstore\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `SELECT ...', 0)
+#1 C:\xampp\htdocs\webstore\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `SELECT ...')
+#2 C:\xampp\htdocs\webstore\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `SELECT ...')
+#3 C:\xampp\htdocs\webstore\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `SELECT ...', Array, false)
+#4 C:\xampp\htdocs\webstore\app\Controllers\EditProducts.php(43): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\webstore\system\CodeIgniter.php(832): App\Controllers\EditProducts->save()
+#6 C:\xampp\htdocs\webstore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EditProducts))
+#7 C:\xampp\htdocs\webstore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\webstore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\webstore\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-05-01 20:15:41 --> Unknown column 'SELECT id FROM products WHERE products.name =' in 'field list'
+CRITICAL - 2022-05-01 20:15:41 --> Unknown column 'SELECT id FROM products WHERE products.name =' in 'field list'
+#0 C:\xampp\htdocs\webstore\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `SELECT ...', 0)
+#1 C:\xampp\htdocs\webstore\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `SELECT ...')
+#2 C:\xampp\htdocs\webstore\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `SELECT ...')
+#3 C:\xampp\htdocs\webstore\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `SELECT ...', Array, false)
+#4 C:\xampp\htdocs\webstore\app\Controllers\EditProducts.php(43): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\webstore\system\CodeIgniter.php(832): App\Controllers\EditProducts->save()
+#6 C:\xampp\htdocs\webstore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EditProducts))
+#7 C:\xampp\htdocs\webstore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\webstore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\webstore\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-05-01 20:20:22 --> Unknown column 'SELECT id FROM `products` WHERE products.name =' in 'field list'
+CRITICAL - 2022-05-01 20:20:22 --> Unknown column 'SELECT id FROM `products` WHERE products.name =' in 'field list'
+#0 C:\xampp\htdocs\webstore\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `SELECT ...', 0)
+#1 C:\xampp\htdocs\webstore\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `SELECT ...')
+#2 C:\xampp\htdocs\webstore\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `SELECT ...')
+#3 C:\xampp\htdocs\webstore\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `SELECT ...', Array, false)
+#4 C:\xampp\htdocs\webstore\app\Controllers\EditProducts.php(43): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\webstore\system\CodeIgniter.php(832): App\Controllers\EditProducts->save()
+#6 C:\xampp\htdocs\webstore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EditProducts))
+#7 C:\xampp\htdocs\webstore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\webstore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\webstore\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-05-01 20:31:16 --> Not unique table/alias: 'products'
+CRITICAL - 2022-05-01 20:31:16 --> Not unique table/alias: 'products'
+#0 C:\xampp\htdocs\webstore\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`\nFRO...', 0)
+#1 C:\xampp\htdocs\webstore\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`\nFRO...')
+#2 C:\xampp\htdocs\webstore\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`\nFRO...')
+#3 C:\xampp\htdocs\webstore\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`\nFRO...', Array, false)
+#4 C:\xampp\htdocs\webstore\app\Controllers\EditProducts.php(49): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\webstore\system\CodeIgniter.php(832): App\Controllers\EditProducts->save()
+#6 C:\xampp\htdocs\webstore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EditProducts))
+#7 C:\xampp\htdocs\webstore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\webstore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\webstore\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-01 20:32:45 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 C:\xampp\htdocs\webstore\system\Database\Query.php(318): strtr('REPLACE INTO `p...', Array)
+#1 C:\xampp\htdocs\webstore\system\Database\Query.php(293): CodeIgniter\Database\Query->matchNamedBinds('REPLACE INTO `p...', Array)
+#2 C:\xampp\htdocs\webstore\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#3 C:\xampp\htdocs\webstore\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#4 C:\xampp\htdocs\webstore\system\Database\BaseBuilder.php(1837): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `p...', Array, false)
+#5 C:\xampp\htdocs\webstore\app\Controllers\EditProducts.php(60): CodeIgniter\Database\BaseBuilder->replace(Array)
+#6 C:\xampp\htdocs\webstore\system\CodeIgniter.php(832): App\Controllers\EditProducts->save()
+#7 C:\xampp\htdocs\webstore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EditProducts))
+#8 C:\xampp\htdocs\webstore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\webstore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\webstore\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-05-01 20:33:58 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 C:\xampp\htdocs\webstore\system\Database\Query.php(318): strtr('REPLACE INTO `p...', Array)
+#1 C:\xampp\htdocs\webstore\system\Database\Query.php(293): CodeIgniter\Database\Query->matchNamedBinds('REPLACE INTO `p...', Array)
+#2 C:\xampp\htdocs\webstore\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#3 C:\xampp\htdocs\webstore\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#4 C:\xampp\htdocs\webstore\system\Database\BaseBuilder.php(1837): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `p...', Array, false)
+#5 C:\xampp\htdocs\webstore\app\Controllers\EditProducts.php(60): CodeIgniter\Database\BaseBuilder->replace(Array)
+#6 C:\xampp\htdocs\webstore\system\CodeIgniter.php(832): App\Controllers\EditProducts->save()
+#7 C:\xampp\htdocs\webstore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EditProducts))
+#8 C:\xampp\htdocs\webstore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\webstore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\webstore\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-05-01 20:40:15 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 C:\xampp\htdocs\webstore\system\Database\Query.php(318): strtr('REPLACE INTO `p...', Array)
+#1 C:\xampp\htdocs\webstore\system\Database\Query.php(293): CodeIgniter\Database\Query->matchNamedBinds('REPLACE INTO `p...', Array)
+#2 C:\xampp\htdocs\webstore\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#3 C:\xampp\htdocs\webstore\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#4 C:\xampp\htdocs\webstore\system\Database\BaseBuilder.php(1837): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `p...', Array, false)
+#5 C:\xampp\htdocs\webstore\app\Controllers\EditProducts.php(60): CodeIgniter\Database\BaseBuilder->replace(Array)
+#6 C:\xampp\htdocs\webstore\system\CodeIgniter.php(832): App\Controllers\EditProducts->save()
+#7 C:\xampp\htdocs\webstore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EditProducts))
+#8 C:\xampp\htdocs\webstore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\webstore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\webstore\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-05-01 21:31:11 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 C:\xampp\htdocs\webstore\system\Database\Query.php(318): strtr('UPDATE `product...', Array)
+#1 C:\xampp\htdocs\webstore\system\Database\Query.php(293): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `product...', Array)
+#2 C:\xampp\htdocs\webstore\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#3 C:\xampp\htdocs\webstore\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#4 C:\xampp\htdocs\webstore\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `product...', Array, false)
+#5 C:\xampp\htdocs\webstore\app\Controllers\EditProducts.php(62): CodeIgniter\Database\BaseBuilder->update(Array)
+#6 C:\xampp\htdocs\webstore\system\CodeIgniter.php(832): App\Controllers\EditProducts->save()
+#7 C:\xampp\htdocs\webstore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EditProducts))
+#8 C:\xampp\htdocs\webstore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\webstore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\webstore\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}

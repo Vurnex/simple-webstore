@@ -1,0 +1,36 @@
+CRITICAL - 2022-04-25 20:06:03 --> session_start(): Ignoring session_start() because a session is already active
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'session_start()...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\demo\app\Controllers\Students.php(17): session_start()
+#2 C:\xampp\htdocs\demo\system\CodeIgniter.php(832): App\Controllers\Students->index()
+#3 C:\xampp\htdocs\demo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+#4 C:\xampp\htdocs\demo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\demo\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-04-25 20:07:08 --> session_start(): Ignoring session_start() because a session is already active
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'session_start()...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\demo\app\Controllers\Students.php(13): session_start()
+#2 C:\xampp\htdocs\demo\system\CodeIgniter.php(832): App\Controllers\Students->index()
+#3 C:\xampp\htdocs\demo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+#4 C:\xampp\htdocs\demo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\demo\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-04-25 20:31:37 --> session_start(): Ignoring session_start() because a session is already active
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'session_start()...', 'C:\\xampp\\htdocs...', 43)
+#1 C:\xampp\htdocs\demo\app\Controllers\Students.php(43): session_start()
+#2 C:\xampp\htdocs\demo\system\CodeIgniter.php(832): App\Controllers\Students->delete('16')
+#3 C:\xampp\htdocs\demo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+#4 C:\xampp\htdocs\demo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\demo\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-04-25 20:32:42 --> session_start(): Ignoring session_start() because a session is already active
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'session_start()...', 'C:\\xampp\\htdocs...', 43)
+#1 C:\xampp\htdocs\demo\app\Controllers\Students.php(43): session_start()
+#2 C:\xampp\htdocs\demo\system\CodeIgniter.php(832): App\Controllers\Students->delete('16')
+#3 C:\xampp\htdocs\demo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+#4 C:\xampp\htdocs\demo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\demo\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}

@@ -1,0 +1,32 @@
+table, th, td { border: 3px solid rgb(75, 71, 71); padding: 10px; font-size: 20px;}
+
+.center { margin-left: auto; margin-right: auto}
+
+a:link {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+
+
+  }
+
+
+

@@ -1,0 +1,19 @@
+Old header.php
+
+<!doctype html>
+<html>
+<head>
+    <title>Lab 8</title>
+    <link rel="stylesheet" href="studentView.css">
+</head>
+<body>
+    <h1 style="text-align:center;">ITS-362 Lab 8</h1>
+
+--------------------------------------------
+
+Old footer.php
+
+<p style="text-align:center; margin-top: 100px">Copyright <em>&copy; 2022</em></p>
+</body>
+</html>
+

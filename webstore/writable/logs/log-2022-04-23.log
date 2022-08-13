@@ -1,0 +1,53 @@
+ERROR - 2022-04-23 18:26:38 --> Error connecting to the database: Unknown database 'login_db'
+CRITICAL - 2022-04-23 18:26:38 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'login_db'
+#0 C:\xampp\htdocs\demo\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\demo\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\demo\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\demo\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('test@mail.com', 'user_email', Array, NULL)
+#4 C:\xampp\htdocs\demo\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('email', 'email', 'test@mail.com', Array, Array)
+#5 C:\xampp\htdocs\demo\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 C:\xampp\htdocs\demo\app\Controllers\Register.php(28): CodeIgniter\Controller->validate(Array)
+#7 C:\xampp\htdocs\demo\system\CodeIgniter.php(832): App\Controllers\Register->save()
+#8 C:\xampp\htdocs\demo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#9 C:\xampp\htdocs\demo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\demo\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-04-23 18:48:46 --> Call to undefined function App\Controllers\alert()
+#0 C:\xampp\htdocs\demo\system\CodeIgniter.php(832): App\Controllers\Register->save()
+#1 C:\xampp\htdocs\demo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#2 C:\xampp\htdocs\demo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\demo\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-04-23 19:57:47 --> Invalid file: home.php
+#0 C:\xampp\htdocs\demo\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home.php')
+#1 C:\xampp\htdocs\demo\system\Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#2 C:\xampp\htdocs\demo\app\Controllers\Dashboard.php(11): view('home')
+#3 C:\xampp\htdocs\demo\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\demo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\demo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\demo\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-23 20:26:00 --> Invalid file: header.php
+#0 C:\xampp\htdocs\demo\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('header.php')
+#1 C:\xampp\htdocs\demo\system\Common.php(1089): CodeIgniter\View\View->render('header', Array, true)
+#2 C:\xampp\htdocs\demo\app\Controllers\Dashboard.php(12): view('header')
+#3 C:\xampp\htdocs\demo\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\demo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\demo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\demo\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-23 20:43:27 --> Invalid file: students/studentview.php
+#0 C:\xampp\htdocs\demo\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('students/studen...')
+#1 C:\xampp\htdocs\demo\system\Common.php(1089): CodeIgniter\View\View->render('students/studen...', Array, true)
+#2 C:\xampp\htdocs\demo\app\Controllers\Students.php(19): view('students/studen...', Array)
+#3 C:\xampp\htdocs\demo\system\CodeIgniter.php(832): App\Controllers\Students->index()
+#4 C:\xampp\htdocs\demo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+#5 C:\xampp\htdocs\demo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\demo\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}

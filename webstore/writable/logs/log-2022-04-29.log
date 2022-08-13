@@ -1,0 +1,128 @@
+CRITICAL - 2022-04-29 16:21:45 --> Undefined variable $currentUser
+#0 C:\xampp\htdocs\webstore\app\Controllers\Cart.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 25)
+#1 C:\xampp\htdocs\webstore\system\CodeIgniter.php(832): App\Controllers\Cart->index()
+#2 C:\xampp\htdocs\webstore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#3 C:\xampp\htdocs\webstore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\webstore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\webstore\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-29 16:22:27 --> Undefined variable $session
+#0 C:\xampp\htdocs\webstore\app\Controllers\Cart.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\webstore\system\CodeIgniter.php(832): App\Controllers\Cart->index()
+#2 C:\xampp\htdocs\webstore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#3 C:\xampp\htdocs\webstore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\webstore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\webstore\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-29 16:33:07 --> Class "App\Controllers\TransactionsModel" not found
+#0 C:\xampp\htdocs\webstore\system\CodeIgniter.php(832): App\Controllers\Cart->complete()
+#1 C:\xampp\htdocs\webstore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#2 C:\xampp\htdocs\webstore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\webstore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\webstore\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-04-29 16:33:58 --> Call to undefined function App\Controllers\getItem1()
+#0 C:\xampp\htdocs\webstore\system\CodeIgniter.php(832): App\Controllers\Cart->complete()
+#1 C:\xampp\htdocs\webstore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#2 C:\xampp\htdocs\webstore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\webstore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\webstore\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-04-29 16:35:32 --> Call to undefined function App\Controllers\getItem1()
+#0 C:\xampp\htdocs\webstore\system\CodeIgniter.php(832): App\Controllers\Cart->complete()
+#1 C:\xampp\htdocs\webstore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#2 C:\xampp\htdocs\webstore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\webstore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\webstore\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-04-29 16:37:58 --> Undefined variable $itemspurchased
+#0 C:\xampp\htdocs\webstore\app\Controllers\Cart.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 52)
+#1 C:\xampp\htdocs\webstore\system\CodeIgniter.php(832): App\Controllers\Cart->complete()
+#2 C:\xampp\htdocs\webstore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#3 C:\xampp\htdocs\webstore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\webstore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\webstore\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-29 16:41:14 --> Call to a member function getItem1() on string
+#0 C:\xampp\htdocs\webstore\system\CodeIgniter.php(832): App\Controllers\Cart->complete()
+#1 C:\xampp\htdocs\webstore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#2 C:\xampp\htdocs\webstore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\webstore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\webstore\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-04-29 17:52:19 --> Call to a member function getItem1() on null
+#0 C:\xampp\htdocs\webstore\system\CodeIgniter.php(832): App\Controllers\Cart->complete()
+#1 C:\xampp\htdocs\webstore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#2 C:\xampp\htdocs\webstore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\webstore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\webstore\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-04-29 18:09:11 --> Undefined global variable $_SESSION
+#0 C:\xampp\htdocs\webstore\app\Controllers\Cart.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined globa...', 'C:\\xampp\\htdocs...', 52)
+#1 C:\xampp\htdocs\webstore\system\CodeIgniter.php(832): App\Controllers\Cart->complete()
+#2 C:\xampp\htdocs\webstore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#3 C:\xampp\htdocs\webstore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\webstore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\webstore\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-29 18:09:47 --> Undefined array key "itemsPurchased"
+#0 C:\xampp\htdocs\webstore\app\Controllers\Cart.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\webstore\system\CodeIgniter.php(832): App\Controllers\Cart->complete()
+#2 C:\xampp\htdocs\webstore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#3 C:\xampp\htdocs\webstore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\webstore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\webstore\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-29 18:10:29 --> Undefined array key "itemsPurchased"
+#0 C:\xampp\htdocs\webstore\app\Controllers\Cart.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 55)
+#1 C:\xampp\htdocs\webstore\system\CodeIgniter.php(832): App\Controllers\Cart->complete()
+#2 C:\xampp\htdocs\webstore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#3 C:\xampp\htdocs\webstore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\webstore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\webstore\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-29 18:11:18 --> Undefined array key "itemsPurchased"
+#0 C:\xampp\htdocs\webstore\app\Controllers\Cart.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 60)
+#1 C:\xampp\htdocs\webstore\system\CodeIgniter.php(832): App\Controllers\Cart->complete()
+#2 C:\xampp\htdocs\webstore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#3 C:\xampp\htdocs\webstore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\webstore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\webstore\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-29 20:17:07 --> Invalid file: productsadminview.php
+#0 C:\xampp\htdocs\webstore\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('productsadminvi...')
+#1 C:\xampp\htdocs\webstore\system\Common.php(1089): CodeIgniter\View\View->render('productsadminvi...', Array, true)
+#2 C:\xampp\htdocs\webstore\app\Controllers\Products.php(29): view('productsadminvi...', Array)
+#3 C:\xampp\htdocs\webstore\system\CodeIgniter.php(832): App\Controllers\Products->index()
+#4 C:\xampp\htdocs\webstore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#5 C:\xampp\htdocs\webstore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\webstore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\webstore\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-29 20:17:44 --> Invalid file: productsadminview.php
+#0 C:\xampp\htdocs\webstore\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('productsadminvi...')
+#1 C:\xampp\htdocs\webstore\system\Common.php(1089): CodeIgniter\View\View->render('productsadminvi...', Array, true)
+#2 C:\xampp\htdocs\webstore\app\Controllers\Products.php(29): view('productsadminvi...', Array)
+#3 C:\xampp\htdocs\webstore\system\CodeIgniter.php(832): App\Controllers\Products->index()
+#4 C:\xampp\htdocs\webstore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#5 C:\xampp\htdocs\webstore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\webstore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\webstore\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-29 20:18:02 --> Invalid file: productsadminview.php
+#0 C:\xampp\htdocs\webstore\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('productsadminvi...')
+#1 C:\xampp\htdocs\webstore\system\Common.php(1089): CodeIgniter\View\View->render('productsadminvi...', Array, true)
+#2 C:\xampp\htdocs\webstore\app\Controllers\Products.php(29): view('productsadminvi...', Array)
+#3 C:\xampp\htdocs\webstore\system\CodeIgniter.php(832): App\Controllers\Products->index()
+#4 C:\xampp\htdocs\webstore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#5 C:\xampp\htdocs\webstore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\webstore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\webstore\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-29 20:24:55 --> Too few arguments to function App\Controllers\Sales::delete(), 0 passed in C:\xampp\htdocs\webstore\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\webstore\system\CodeIgniter.php(832): App\Controllers\Sales->delete()
+#1 C:\xampp\htdocs\webstore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sales))
+#2 C:\xampp\htdocs\webstore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\webstore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\webstore\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}

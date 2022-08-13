@@ -1,0 +1,34 @@
+CRITICAL - 2022-04-27 10:52:56 --> Class "App\Controllers\ProductsModel" not found
+#0 C:\xampp\htdocs\webstore\system\CodeIgniter.php(832): App\Controllers\Products->index()
+#1 C:\xampp\htdocs\webstore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#2 C:\xampp\htdocs\webstore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\webstore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\webstore\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-04-27 10:54:19 --> Class "App\Controllers\ProductsModel" not found
+#0 C:\xampp\htdocs\webstore\system\CodeIgniter.php(832): App\Controllers\Products->index()
+#1 C:\xampp\htdocs\webstore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#2 C:\xampp\htdocs\webstore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\webstore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\webstore\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-04-27 17:54:27 --> Array to string conversion
+#0 C:\xampp\htdocs\webstore\app\Controllers\Products.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\webstore\system\CodeIgniter.php(832): App\Controllers\Products->index()
+#2 C:\xampp\htdocs\webstore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#3 C:\xampp\htdocs\webstore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\webstore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\webstore\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-27 18:19:48 --> Undefined variable $product
+#0 C:\xampp\htdocs\webstore\app\Views\products.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\webstore\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\webstore\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\webstore\system\Common.php(1089): CodeIgniter\View\View->render('products', Array, true)
+#4 C:\xampp\htdocs\webstore\app\Controllers\Products.php(35): view('products', Array)
+#5 C:\xampp\htdocs\webstore\system\CodeIgniter.php(832): App\Controllers\Products->index()
+#6 C:\xampp\htdocs\webstore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#7 C:\xampp\htdocs\webstore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\webstore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\webstore\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

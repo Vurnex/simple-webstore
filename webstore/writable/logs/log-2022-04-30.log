@@ -1,0 +1,108 @@
+CRITICAL - 2022-04-30 10:16:26 --> Invalid file: productsadminview.php
+#0 C:\xampp\htdocs\webstore\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('productsadminvi...')
+#1 C:\xampp\htdocs\webstore\system\Common.php(1089): CodeIgniter\View\View->render('productsadminvi...', Array, true)
+#2 C:\xampp\htdocs\webstore\app\Controllers\Products.php(29): view('productsadminvi...', Array)
+#3 C:\xampp\htdocs\webstore\system\CodeIgniter.php(832): App\Controllers\Products->index()
+#4 C:\xampp\htdocs\webstore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#5 C:\xampp\htdocs\webstore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\webstore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\webstore\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-30 10:35:59 --> Invalid file: productsadminview.php
+#0 C:\xampp\htdocs\webstore\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('productsadminvi...')
+#1 C:\xampp\htdocs\webstore\system\Common.php(1089): CodeIgniter\View\View->render('productsadminvi...', Array, true)
+#2 C:\xampp\htdocs\webstore\app\Controllers\Products.php(29): view('productsadminvi...', Array)
+#3 C:\xampp\htdocs\webstore\system\CodeIgniter.php(832): App\Controllers\Products->index()
+#4 C:\xampp\htdocs\webstore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#5 C:\xampp\htdocs\webstore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\webstore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\webstore\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-30 10:37:02 --> Undefined array key "id"
+#0 C:\xampp\htdocs\webstore\app\Views\productadminview.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\webstore\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\webstore\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\webstore\system\Common.php(1089): CodeIgniter\View\View->render('productadminvie...', Array, true)
+#4 C:\xampp\htdocs\webstore\app\Controllers\Products.php(29): view('productadminvie...', Array)
+#5 C:\xampp\htdocs\webstore\system\CodeIgniter.php(832): App\Controllers\Products->index()
+#6 C:\xampp\htdocs\webstore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#7 C:\xampp\htdocs\webstore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\webstore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\webstore\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-30 10:38:05 --> Undefined array key "picture"
+#0 C:\xampp\htdocs\webstore\app\Views\productadminview.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 44)
+#1 C:\xampp\htdocs\webstore\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\webstore\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\webstore\system\Common.php(1089): CodeIgniter\View\View->render('productadminvie...', Array, true)
+#4 C:\xampp\htdocs\webstore\app\Controllers\Products.php(29): view('productadminvie...', Array)
+#5 C:\xampp\htdocs\webstore\system\CodeIgniter.php(832): App\Controllers\Products->index()
+#6 C:\xampp\htdocs\webstore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#7 C:\xampp\htdocs\webstore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\webstore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\webstore\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-30 17:55:14 --> Undefined array key "wirelessinput"
+#0 C:\xampp\htdocs\webstore\app\Controllers\AddProducts.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\webstore\system\CodeIgniter.php(832): App\Controllers\AddProducts->save()
+#2 C:\xampp\htdocs\webstore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AddProducts))
+#3 C:\xampp\htdocs\webstore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\webstore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\webstore\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-30 17:56:16 --> Undefined array key "wirelessinput"
+#0 C:\xampp\htdocs\webstore\app\Controllers\AddProducts.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\webstore\system\CodeIgniter.php(832): App\Controllers\AddProducts->save()
+#2 C:\xampp\htdocs\webstore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AddProducts))
+#3 C:\xampp\htdocs\webstore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\webstore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\webstore\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-30 17:56:29 --> Undefined array key "wirelessinput"
+#0 C:\xampp\htdocs\webstore\app\Controllers\AddProducts.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\webstore\system\CodeIgniter.php(832): App\Controllers\AddProducts->save()
+#2 C:\xampp\htdocs\webstore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AddProducts))
+#3 C:\xampp\htdocs\webstore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\webstore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\webstore\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-30 18:00:13 --> Undefined array key "wirelessinput"
+#0 C:\xampp\htdocs\webstore\app\Controllers\AddProducts.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\webstore\system\CodeIgniter.php(832): App\Controllers\AddProducts->save()
+#2 C:\xampp\htdocs\webstore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AddProducts))
+#3 C:\xampp\htdocs\webstore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\webstore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\webstore\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-30 18:33:40 --> Undefined array key "wirelessInputted"
+#0 C:\xampp\htdocs\webstore\app\Controllers\AddProducts.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\webstore\system\CodeIgniter.php(832): App\Controllers\AddProducts->save()
+#2 C:\xampp\htdocs\webstore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AddProducts))
+#3 C:\xampp\htdocs\webstore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\webstore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\webstore\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-30 18:33:49 --> Undefined array key "wirelessInputted"
+#0 C:\xampp\htdocs\webstore\app\Controllers\AddProducts.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\webstore\system\CodeIgniter.php(832): App\Controllers\AddProducts->save()
+#2 C:\xampp\htdocs\webstore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AddProducts))
+#3 C:\xampp\htdocs\webstore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\webstore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\webstore\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-30 18:33:55 --> Undefined array key "wirelessInputted"
+#0 C:\xampp\htdocs\webstore\app\Controllers\AddProducts.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\webstore\system\CodeIgniter.php(832): App\Controllers\AddProducts->save()
+#2 C:\xampp\htdocs\webstore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AddProducts))
+#3 C:\xampp\htdocs\webstore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\webstore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\webstore\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-30 18:34:38 --> Undefined array key "wirelessInputted"
+#0 C:\xampp\htdocs\webstore\app\Controllers\AddProducts.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\webstore\system\CodeIgniter.php(832): App\Controllers\AddProducts->save()
+#2 C:\xampp\htdocs\webstore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AddProducts))
+#3 C:\xampp\htdocs\webstore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\webstore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\webstore\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

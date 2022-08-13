@@ -1,0 +1,22 @@
+CRITICAL - 2022-05-04 11:44:06 --> Class "App\Controllers\PDO" not found
+#0 C:\xampp\htdocs\webstore\system\CodeIgniter.php(832): App\Controllers\EditProducts->save()
+#1 C:\xampp\htdocs\webstore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EditProducts))
+#2 C:\xampp\htdocs\webstore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\webstore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\webstore\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-04 12:59:54 --> Undefined variable $smartphonePrice
+#0 C:\xampp\htdocs\webstore\app\Controllers\EditProducts.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 44)
+#1 C:\xampp\htdocs\webstore\system\CodeIgniter.php(832): App\Controllers\EditProducts->save()
+#2 C:\xampp\htdocs\webstore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EditProducts))
+#3 C:\xampp\htdocs\webstore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\webstore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\webstore\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-04 13:49:02 --> Too few arguments to function App\Controllers\Products::delete(), 0 passed in C:\xampp\htdocs\webstore\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\webstore\system\CodeIgniter.php(832): App\Controllers\Products->delete()
+#1 C:\xampp\htdocs\webstore\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#2 C:\xampp\htdocs\webstore\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\webstore\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\webstore\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
